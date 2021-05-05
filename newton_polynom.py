@@ -17,8 +17,8 @@ anz_x = int(input('Wie viele Messwerte hast du? '))
 y0 =[]
 
 for i in range(anz_x):
-    xx = int(input("\nx für k = "+str(i)+ ":  "))
-    yy = int(input('y für k = '+ str(i)+ ':  '))
+    xx = float(input("\nx für k = "+str(i)+ ":  "))
+    yy = float(input('y für k = '+ str(i)+ ':  '))
     x0.append(xx)
     y0.append(yy)
 y.append(y0)
